@@ -1,0 +1,5 @@
+After attaching the github config repository,
+run a request with catalog-service(name of the starting files) then /prod to get the
+production properties /defualt to get the default without prod or dev
+ http :8888/catalog-service/default
+ http :8888/catalog-service/prod
